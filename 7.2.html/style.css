@@ -1,0 +1,9 @@
+.opleidingswijzer_h1 {
+    color: rgb(255, 251, 27);
+    font-size: 3rem;
+    width: 100vw;
+    height: 10vh;
+    margin: 5vh 0;
+    flex-direction: column;
+    justify-content: center;
+  }

@@ -1,0 +1,99 @@
+*  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+ul {
+  list-style-type: none;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+
+li a {
+  color: rgb(117, 45, 45);
+  text-decoration: none;
+  text-align: center;
+  padding: 0.8 1rem;
+  display: inline-block;
+}
+
+.dropdown-content a {
+  position: absolute;
+  min-width: 20vw;
+  z-index: 1;
+  box-shadow: 0rem o.5rem 1rem 0rem rgba(0, 0, 0, 2);
+}
+.dropdown-content a {
+  display: none;
+  color: black;
+  padding: 0.8rem 1rem;
+  display: block;
+  text-align: left;
+}
+
+h1 {
+  color: bisque;
+  background-position: center;
+}
+
+h2 {
+  background-position: center;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  height: 100vh;
+  font-family: "Goldman", cursive;
+}
+p {
+  color: black;
+}
+.container {
+  background-image: url("hacker.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+.footer {
+  color: brown;
+  max-width: 100vw;
+  max-height: 100vh;
+  position: relative;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  width: 20%;
+  color: rgb(221, 16, 16);
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+nav a {
+  color: rgb(76, 26, 192);
+  text-decoration: none;
+}
+nav img {
+  width: 5vw;
+}
