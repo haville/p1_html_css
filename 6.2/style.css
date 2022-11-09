@@ -1,0 +1,31 @@
+.flex-container {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}
+.div1 {
+  
+  background-color: blue;
+}
+
+.div2 {
+  
+  background-color: rgb(0, 0, 0);
+}
+
+.div3 {
+  background-color: rgb(214, 13, 13);
+}
+
+.div4 {
+  
+  background-color: rgba(4, 121, 0, 0.342);
+}
+
+div {
+  width: 200px;
+  height: 200px;
+}
+
+
